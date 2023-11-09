@@ -4,3 +4,46 @@ body {
     "Arial Narrow Bold", sans-serif;
   color: white;
 }
+
+header,
+footer,
+section,
+
+section {
+    text-align: justify;
+}
+.formations,
+.expériences {
+  border-bottom: 1px solid;
+}
+
+h1 {
+    font-size: 180px;
+}
+
+h2 {
+    font-size: 40px;
+    ;
+}
+
+p {
+    font-size: 27px;
+}
+
+.profile-picture {
+    width: 500px;
+    height: auto;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+.profile-picture {
+    float: right;
+
+
+.experiences-professionnelles li,
+.experiences-personnelles li {
+      list-style-type: none;
+}
