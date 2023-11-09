@@ -1,81 +1,74 @@
 body {
-  background-color: black;
-  font-family: "carlmarx", Courier, Impact, Haettenschweiler,
-    "Arial Narrow Bold", sans-serif;
-  color: white;
+    background-color: black;
+    font-family: "carlmarx", Courier, Impact, Haettenschweiler,"Arial Narrow Bold", sans-serif;
+    color: white;
 }
 
-header,
-footer,
-section,
-
-section {
-    text-align: justify;
-}
-.formations,
-.expériences {
-  border-bottom: 1px solid;
+main {
+    position: relative;
 }
 
 h1 {
     font-size: 180px;
+    position: absolute;
+    top: 200px;  
+    left: 600px; 
 }
 
 h2 {
     font-size: 40px;
-    ;
+    -webkit-text-stroke: 2px blue;
+    margin-left: 20px;
 }
 
 h3 {
     font-size: 35px;
     margin-left: 40px;
+    -webkit-text-stroke: 1px blue;
 }
 
 p {
     font-size: 27px;
+    margin-left: 20px;
 }
 
-.profile-picture {
-    width: 500px;
-    height: auto;
+section {
+    text-align: justify;
 }
 
-
-
-
-.profile-picture {
-    float: right;
+.formations,
+.expériences {
+    border-bottom: 1px solid;
 }
 
 .experiences-professionnelles li,
 .experiences-personnelles li {
-      list-style-type: none;
+    list-style-type: none;
 }
 
 .infos {
     font-size: 25px;
-    margin-top: 5px;
-  margin-bottom: 5px;
+    margin-top: px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    color: aliceblue;
 }
 
-main {
-    position: relative;
-  }
+.profil {
+    top: 800px;
+}
 
 .profile-picture {
     position: absolute;
     top: -100px;
     right: 100px; 
-  }
-
-  h1 {
-    position: absolute;
-    top: 200px;  
-    left: 600px;  
+    width: 500px;
+    height: auto;
+    float: right;
   }
  
-  section h2 + p {
-    margin-top: 500px; 
+  section .profil {
+    margin-top: 400px; 
   }
 
 .comp {
@@ -83,3 +76,19 @@ main {
     justify-content: center;
  }
       
+ .white-band {
+    height: 30px; 
+    background-color: white; 
+    width: 100%;
+    position: relative;
+    top: 550px
+  }
+
+.vertical-band {
+    background-color: white; 
+    width: 25px;
+    height: 49vh; 
+    position: absolute; 
+    top: 10; 
+    left: 10;
+  }
