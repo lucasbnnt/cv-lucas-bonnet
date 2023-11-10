@@ -34,7 +34,17 @@ p {
 
 section {
     text-align: justify;
-    border: 5px dotted red;
+    border: 5px dotted white;
+}
+
+section .profil {
+    margin-top: 400px; 
+}
+
+.alternance {
+    margin-left: 40px;
+    color: red;
+    -webkit-text-stroke: 1% black;
 }
 
 .formations,
@@ -66,30 +76,28 @@ section {
     width: 500px;
     height: auto;
     float: right;
-  }
+}
  
-  section .profil {
-    margin-top: 400px; 
-  }
+  
 
 .comp {
     display: flex;
     justify-content: center;
- }
-      
- .white-band {
+}
+ 
+.white-band {
     height: 30px; 
     background-color: white; 
     width: 100%;
     position: relative;
     top: 550px
-  }
+}
 
 .vertical-band {
     background-color: white; 
     width: 25px;
-    height: 49vh; 
+    height: 74vh; 
     position: absolute; 
     top: 10; 
     left: 10;
-  }
+}
