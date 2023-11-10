@@ -19,6 +19,7 @@ h2 {
     font-size: 40px;
     -webkit-text-stroke: 2px blue;
     margin-left: 20px;
+    text-decoration: underline;
 }
 
 h3 {
@@ -34,7 +35,7 @@ p {
 
 section {
     text-align: justify;
-    border: 5px dotted white;
+    /* border: 5px dotted white; */
 }
 
 section .profil {
@@ -77,14 +78,13 @@ section .profil {
     height: auto;
     float: right;
 }
- 
   
-
 .comp {
     display: flex;
     justify-content: center;
 }
  
+
 .white-band {
     height: 30px; 
     background-color: white; 
@@ -100,4 +100,32 @@ section .profil {
     position: absolute; 
     top: 10; 
     left: 10;
+}
+
+.experiences {
+    display:flex;
+    flex-wrap: wrap;
+
+}
+
+.experiences h2 {
+    width: 100%;
+}
+
+.experiences div {
+    flex: 0%;
+}
+
+.competences {
+    display:flex;
+    flex-wrap: wrap;
+
+}
+
+.competences h2 {
+    width: 100%;
+}
+
+.competences div {
+    flex: 0%;
 }
