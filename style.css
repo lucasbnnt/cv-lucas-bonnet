@@ -2,17 +2,22 @@ body {
     background-color: black;
     font-family: "carlmarx", Courier, Impact, Haettenschweiler,"Arial Narrow Bold", sans-serif;
     color: white;
+    /*max-width: 800px;*/
+    /*margin: 0 auto;*/
+    padding: 40px;
 }
 
 main {
     position: relative;
+    max-width: 900px;
+    margin: auto;
 }
 
 h1 {
-    font-size: 180px;
+    font-size: 80px;
     position: absolute;
-    top: 200px;  
-    left: 600px;
+    top: 400px;  
+    left: 250px;
     z-index: 1; 
 }
 
@@ -21,6 +26,13 @@ h2 {
     -webkit-text-stroke: 2px blue;
     margin-left: 20px;
     text-decoration: underline;
+    transition: transform 1.5s ease;
+    transform-origin: 1%;
+    
+}
+
+h2:hover {
+    transform: scale(1.1);
 }
 
 h3 {
@@ -73,18 +85,18 @@ section .profil {
 
 .profile-picture {
     position: absolute;
-    top: -100px;
-    right: 100px; 
-    width: 500px;
+    top: 20px;
+    right: -10px; 
+    width: 400px;
     height: auto;
     float: right;
 }
 
 .camera {
     position: absolute;
-    top: 320px;
-    right: 745px; 
-    width: 150px;
+    top: 430px;
+    right: 620px; 
+    width: 80px;
     height: auto;
     float: right;
     transform: rotate(-40deg);
@@ -150,3 +162,4 @@ section .profil {
 .competences div {
     flex: 0%;
 }
+
