@@ -19,6 +19,7 @@ h1 {
     top: 400px;  
     left: 250px;
     z-index: 1; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 h2 {
@@ -163,5 +164,52 @@ section .profil {
     flex: 0%;
 }
 
-@media screen and (min-width : 768px) {
+@media only screen and (max-width: 768px) {
+    body {
+      padding: 20px; /* Réduire le padding */
+    }
+  
+    main {
+      max-width: 100%; /* Utiliser toute la largeur disponible */
+    }
+  
+    h1 {
+      font-size: 40px; /* Taille de police plus petite */
+      top: 300px; /* Ajuster la position */
+      left: 150px; /* Ajuster la position */
+    }
+  
+    .profile-picture {
+      width: 200px; /* Réduire la taille de l'image */
+      top: 10px;
+      right: 5px;
+    }
+  
+    .camera {
+      top: 300px;
+      right: 310px;
+      width: 60px; /* Réduire la taille de l'image */
+    }
+  
+    .logo {
+      width: 70px; /* Réduire la taille du logo */
+      bottom: 5px;
+      right: 5px;
+    }
+  
+    .white-band {
+      top: 400px; /* Ajuster la position */
+    }
+  
+    .vertical-band {
+      height: 50vh; /* Ajuster la hauteur */
+    }
+  
+    .experiences, .competences {
+      flex-direction: column; /* Empiler les éléments verticalement */
+    }
+  
+    h2, h3, p {
+      font-size: smaller;
+}
 }
