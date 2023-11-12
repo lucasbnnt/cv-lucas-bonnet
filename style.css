@@ -17,7 +17,7 @@ h1 {
     font-size: 80px;
     position: absolute;
     top: 400px;  
-    left: 250px;
+    left: 150px;
     z-index: 1; 
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -166,50 +166,51 @@ section .profil {
 
 @media only screen and (max-width: 768px) {
     body {
-      padding: 20px; /* Réduire le padding */
+      padding: 20px;
     }
   
     main {
-      max-width: 100%; /* Utiliser toute la largeur disponible */
+      max-width: 100%; 
     }
   
     h1 {
-      font-size: 40px; /* Taille de police plus petite */
-      top: 300px; /* Ajuster la position */
-      left: 150px; /* Ajuster la position */
+      font-size: 40px; 
+      top: 250px;
+      left: 150px;
     }
   
     .profile-picture {
-      width: 200px; /* Réduire la taille de l'image */
-      top: 10px;
+      width: 1500px;
+      top: 50px;
       right: 5px;
     }
   
     .camera {
       top: 300px;
-      right: 310px;
-      width: 60px; /* Réduire la taille de l'image */
+      right: 190px;
+      width: 40px; 
     }
-  
-    .logo {
-      width: 70px; /* Réduire la taille du logo */
-      bottom: 5px;
-      right: 5px;
-    }
-  
+
+    
     .white-band {
-      top: 400px; /* Ajuster la position */
+      top: 400px;
     }
   
     .vertical-band {
-      height: 50vh; /* Ajuster la hauteur */
+      height: 50vh;
     }
   
     .experiences, .competences {
-      flex-direction: column; /* Empiler les éléments verticalement */
+      flex-direction: column;
     }
   
     h2, h3, p {
       font-size: smaller;
+    }
+    
+    .infos {
+        font-size: 10px;
+    }
 }
-}
+
+
